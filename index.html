@@ -2,71 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Absolutely No Machete Juggling!</title>
-    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Absolutely No Machete Juggling » The Star Wars Saga: Introducing Machete Order</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 <body>
 <!--top nav-->
+<header>
+    <nav class="nav">
+        <ul>
+            <li class="nav__item nav__item__dark"><a href="">all</a></li>
+            <li class="nav__item nav__item__dark nav__item__active"><a href="">life</a></li>
+            <li class="nav__item nav__item__dark"><a href="">programming</a></li>
+            <li class="nav__item nav__item__dark"><a href="">technology</a></li>
+            <li class="nav__item"><a href="">about</a></li>
+            <li class="nav__item"><a href="">résumé</a></li>
+            <li class="nav__item"><a href="">projects</a></li>
+            <li class="nav__item"><a href="">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!--top nav collapse-->
+<!--left aside-->
+<aside class="left-bar">
     <header>
-        <nav>
-            <ul>
-                <li>all</li>
-                <li>life</li>
-                <li>programming</li>
-                <li>technology</li>
-                <li>about</li>
-                <li>résumé</li>
-                <li>projects</li>
-                <li>contact</li>
-            </ul>
-        </nav>
+        <img src="assets/img/logonew3.png" alt="Site logo" class="left-bar__image">
+        <p class="left-bar__description">Rod Hilton's rants about software development, technology, and sometimes Star Wars</p>
+        <ul class="social-links">
+            <li><a href="" class="social-links__twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="" class="social-links__linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li><a href="" class="social-links__facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="" class="social-links__github"><i class="fa fa-github-square fa-2x"></i></a></li>
+        </ul>
     </header>
-    <!--top nav collapse-->
-    <!--left aside-->
-    <aside>
-        <div>
-            <img src="assets/img/logonew3.png" alt="Site logo">
-            <p>Rod Hilton's rants about software development, technology, and sometimes Star Wars</p>
-            <div> Social Media links aka --> fonrawesome </div>
-        </div>
-        <article>
-            <h2>Recent posts</h2>
-            <ul>
-                <li><a href="">A Branching Strategy Simpler than GitFlow: Three-Flow</a></li>
-                <li><a href="">Software Engineering Guiding Principles - Part 2</a></li>
-                <li><a href="">Software Engineering Guiding Principles - Part 1</a></li>
-                <li><a href="">My StrengthsFinder Results</a></li>
-                <li><a href="">Star Wars Machete Order: Update and FAQ</a></li>
-                <li><a href="">PhD Status Report</a></li>
-                <li><a href="">QCon New York 2015: A Review</a></li>
-                <li><a href="">Uploading a Jekyll Site to Rackspace Cloudfiles</a></li>
-                <li><a href="">The Worst Programming Interview Question</a></li>
-            </ul>
-        </article>
-        <article>
-            <h3>Popular posts</h3>
-            <ul>
-                <li><a href="">Moving One Git Repository Into Another As A Subdirectory</a></li>
-                <li><a href="">Why The Complete Bipartite Graph K3,3 Is Not Planar</a></li>
-                <li><a href="">The Star Wars Saga: Introducing Machete Order</a></li>
-                <li><a href="">Personal Wiki using GitHub and Gollum on OS X</a></li>
-                <li><a href="">Top 10 Career-Changing Programming Books</a></li>
-                <li><a href="">Star Wars Machete Order: Update and FAQ</a></li>
-            </ul>
-        </article>
-    </aside>
-    <!--left aside collapse-->
+    <section>
+        <h3 class="left-bar__header">Recent posts</h3>
+        <ul class="side-nav">
+            <li><a href="">A Branching Strategy Simpler than GitFlow: Three-Flow</a></li>
+            <li><a href="">Software Engineering Guiding Principles - Part 2</a></li>
+            <li><a href="">Software Engineering Guiding Principles - Part 1</a></li>
+            <li><a href="">My StrengthsFinder Results</a></li>
+            <li><a href="">Star Wars Machete Order: Update and FAQ</a></li>
+            <li><a href="">PhD Status Report</a></li>
+            <li><a href="">QCon New York 2015: A Review</a></li>
+            <li><a href="">Uploading a Jekyll Site to Rackspace Cloudfiles</a></li>
+            <li><a href="">The Worst Programming Interview Question</a></li>
+        </ul>
+    </section>
+    <section>
+        <h3 class="left-bar__header">Popular posts</h3>
+        <ul class="side-nav">
+            <li><a href="">Moving One Git Repository Into Another As A Subdirectory</a></li>
+            <li><a href="">Why The Complete Bipartite Graph K3,3 Is Not Planar</a></li>
+            <li><a href="">The Star Wars Saga: Introducing Machete Order</a></li>
+            <li><a href="">Personal Wiki using GitHub and Gollum on OS X</a></li>
+            <li><a href="">Top 10 Career-Changing Programming Books</a></li>
+            <li><a href="">Star Wars Machete Order: Update and FAQ</a></li>
+        </ul>
+    </section>
+</aside>
+<!--left aside collapse-->
 
-    <main>
+<main>
+    <!--main article-->
+    <article class="main-article">
         <!--main title-->
         <header>
             <h1>The Star Wars Saga: Introducing Machete Order</h1>
-            <p><span>LIFE</span> - November 11, 2011 - 4,700 words - <a href="">1169 Comments</a></p>
+            <p><b>LIFE</b> - November 11, 2011 - 4,700 words - <a href="">1169 Comments</a></p>
         </header>
         <!--in-article nav-->
-        <aside>
-            <h2>Content</h2>
-            <nav>
+        <aside class="off-flow-block off-flow-block__right">
+            <nav class="article-nav">
+                <h2 class="article-nav__title">Contents</h2>
                 <ul>
                     <li><a href="#release-vs-episode">Release Order vs Episode Order</a></li>
                     <li><a href="">Introducing: Machete Order</a></li>
@@ -90,55 +99,84 @@
             </nav>
         </aside>
         <!--in-article nav collapse-->
-        <!--main article-->
-        <article>
-            <!--article sections-->
-            <section>
-                <p>
-                    Brace yourselves, what follows is an amazingly long blog post about the best order in which to watch Star Wars.
-                </p>
-                <p>
-                    First, let me say this: for people that couldn't care less about the prequel trilogy, I suggest Harmy's Despecialized Editions. They are 720p videos that are the result of "Harmy" from The Original Trilogy forums painstakingly reconstructing the theatrical releases of all three films utilizing a wide variety of video sources as well as custom mattes. Downloading, burning, labeling, and printing cases for these films is one of the neckbeardiest things I've done (aside from writing this blog post), and I'm extremely glad I did it. If the "proper order" for Star Wars for you is the original trilogy and nothing else, stop reading now and find the Despecialized Editions.
-                </p>
-                <div>
-                    <img src="assets/img/img1.jpg" alt="Blue-ray star wars collection">
-                    <span>Harmy, King of the Nerds!</span>
+        <!--article sections-->
+        <section>
+            <p>
+                Brace yourselves, what follows is an amazingly long blog post about the best order in which to watch
+                Star Wars.
+            </p>
+            <p>
+                First, let me say this: for people that couldn't care less about the prequel trilogy, I suggest Harmy's
+                Despecialized Editions. They are 720p videos that are the result of "Harmy" from The Original Trilogy
+                forums painstakingly reconstructing the theatrical releases of all three films utilizing a wide variety
+                of video sources as well as custom mattes. Downloading, burning, labeling, and printing cases for these
+                films is one of the neckbeardiest things I've done (aside from writing this blog post), and I'm
+                extremely glad I did it. If the "proper order" for Star Wars for you is the original trilogy and nothing
+                else, stop reading now and find the Despecialized Editions.
+            </p>
+            <div class="off-flow-block">
+                <img src="assets/img/img1.jpg" alt="Blue-ray star wars collection">
+                <span>Harmy, King of the Nerds!</span>
+            </div>
+            <p>
+                So, with that out of the way, what can you do if you do wish to involve the prequel trilogy? Maybe you
+                don't want to mess around with fan edits or the pirate bay, and you just want to watch the official
+                Blu-rays with your kids. Maybe you've accepted that the original theatrical editions are no longer
+                considered canon, and you're a nerd that cares about things like that. Hell, maybe you actually like the
+                prequels (seriously?).
+            </p>
+            <p>
+                Whatever your reason, if you are showing someone the official editions of Star Wars for the first time,
+                you have to make a decision about which order to watch the films.
+            </p>
+        </section>
+        <section id="release-vs-episode">
+            <h2>Release Order vs Episode Order</h2>
+            <p>There are two obvious options for watching the Star Wars saga.</p>
+            <ul>
+                <li><b>Release Order</b>- Watch the films in the order they came out, recreating your experience with
+                    the films for someone new to them.
+                </li>
+                <li><b>Episode Order</b>- Watch the films in the order George Lucas intends, starting with Episode I and
+                    going straight through to Episode VI
+                </li>
+            </ul>
+            <p>
+                There are two critical flaws with both of these orders, unfortunately, that prevent either from being
+                appropriate.
+            </p>
+            <p>
+                <b>The problem with Episode Order is that it ruins one of the biggest twists in movie history.</b>
+                If you think that this reveal doesn't matter since it's common knowledge, I suggest you watch the looks
+                on these kids' faces. If a newcomer to the series has managed to avoid having it spoiled for them,
+                watching the films in Episode Order would be like watching the ending of The Sixth Sense first.
+            </p>
+            <p>
+                The other problem with Episode Order is that the prequels don't really have a story. They're just
+                background for the real story, which is Luke and his new friends trying to defeat the Empire. Watching 3
+                films of backstory is boring if you've never seen the films they're the background to. Hell, that's why
+                George Lucas made Star Wars (later renamed A New Hope) first - it was the most interesting story he had
+                in his brain at the time. Starting someone off with Episode I is a surefire way to ensure they don't
+                make it through the entire franchise.
+            </p>
+            <div>
+                <div class="off-flow-block off-flow-block__right">
+                    <img src="assets/img/jedi_ruined.jpg" alt="New actors for new jedi">
                 </div>
                 <p>
-                    So, with that out of the way, what can you do if you do wish to involve the prequel trilogy? Maybe you don't want to mess around with fan edits or the pirate bay, and you just want to watch the official Blu-rays with your kids. Maybe you've accepted that the original theatrical editions are no longer considered canon, and you're a nerd that cares about things like that. Hell, maybe you actually like the prequels (seriously?).
+                    Unfortunately, Release Order is also an instant failure, and the reason is a single shot. If you're
+                    watching the official releases and you view the original trilogy first, then at the end of Episode
+                    6, Luke looks over at his mentors, Ben Kenobi and Yoda, and suddenly they are joined by... some
+                    random creepy looking teenager who needs a haircut. Placing Hayden Christensen in the ending of
+                    Jedi, since he's not in ANY of the other films, turns an ending that should be celebratory into one
+                    that is confusing for the viewer. The fact that Christensen looks like he's undressing someone with
+                    his eyes doesn't help.
                 </p>
-                <p>
-                    Whatever your reason, if you are showing someone the official editions of Star Wars for the first time, you have to make a decision about which order to watch the films.
-                </p>
-            </section>
-            <section id="release-vs-episode">
-                <h2>Release Order vs Episode Order</h2>
-                <p>There are two obvious options for watching the Star Wars saga.</p>
-                <ul>
-                    <li><b>Release Order</b>- Watch the films in the order they came out, recreating your experience with the films for someone new to them.</li>
-                    <li><b>Episode Order</b>- Watch the films in the order George Lucas intends, starting with Episode I and going straight through to Episode VI</li>
-                </ul>
-                <p>
-                    There are two critical flaws with both of these orders, unfortunately, that prevent either from being appropriate.
-                </p>
-                <p>
-                    <b>The problem with Episode Order is that it ruins one of the biggest twists in movie history.</b>
-                    If you think that this reveal doesn't matter since it's common knowledge, I suggest you watch the looks on these kids' faces. If a newcomer to the series has managed to avoid having it spoiled for them, watching the films in Episode Order would be like watching the ending of The Sixth Sense first.
-                </p>
-                <p>
-                    The other problem with Episode Order is that the prequels don't really have a story. They're just background for the real story, which is Luke and his new friends trying to defeat the Empire. Watching 3 films of backstory is boring if you've never seen the films they're the background to. Hell, that's why George Lucas made Star Wars (later renamed A New Hope) first - it was the most interesting story he had in his brain at the time. Starting someone off with Episode I is a surefire way to ensure they don't make it through the entire franchise.
-                </p>
-                <div>
-                    <p>
-                        Unfortunately, Release Order is also an instant failure, and the reason is a single shot. If you're watching the official releases and you view the original trilogy first, then at the end of Episode 6, Luke looks over at his mentors, Ben Kenobi and Yoda, and suddenly they are joined by... some random creepy looking teenager who needs a haircut. Placing Hayden Christensen in the ending of Jedi, since he's not in ANY of the other films, turns an ending that should be celebratory into one that is confusing for the viewer. The fact that Christensen looks like he's undressing someone with his eyes doesn't help.
-                    </p>
-                    <div>
-                        <img src="assets/img/jedi_ruined.jpg" alt="New actors for new jedi">
-                    </div>
-                </div>
-            </section>
-        </article>
-    </main>
+                <p>So neither order really works. What to do?</p>
+            </div>
+        </section>
+    </article>
+</main>
 
 </body>
 </html>
